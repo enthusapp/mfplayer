@@ -8,7 +8,7 @@
   <meta name="description" content="None">
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>Welcome to MkDocs - ENTHUS MFPlayer 메뉴얼</title>
+  <title>스케쥴 편집 - ENTHUS MFPlayer 메뉴얼</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="css/theme.css" type="text/css" />
@@ -17,7 +17,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Welcome to MkDocs";
+    var mkdocs_page_name = "\uc2a4\ucf00\uc974 \ud3b8\uc9d1";
     var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = null;
   </script>
@@ -50,21 +50,54 @@
           
             <li class="toctree-l1 current">
 		
-    <a class="current" href=".">Welcome to MkDocs</a>
+    <a class="current" href=".">스케쥴 편집</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
+    <li class="toctree-l2"><a href="#_1">스케쥴 편집</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#commands">Commands</a></li>
+            <li><a class="toctree-l3" href="#_2">미디어 선택</a></li>
         
-            <li><a class="toctree-l3" href="#project-layout">Project layout</a></li>
+            <li><a class="toctree-l3" href="#_3">위치 설정</a></li>
+        
+            <li><a class="toctree-l3" href="#_4">테스트</a></li>
+        
+            <li><a class="toctree-l3" href="#_5">삭제</a></li>
+        
+            <li><a class="toctree-l3" href="#_6">활성화</a></li>
+        
+            <li><a class="toctree-l3" href="#_7">시간 설정</a></li>
         
         </ul>
     
 
     </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="schedule_add/">스케쥴 추가</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="start_stop/">재생 시작/정지</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="undo/">편집 되돌리기</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="rgb_test/">RGB TEST</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="add_media/">미디어 추가</a>
 	    </li>
           
         </ul>
@@ -89,7 +122,7 @@
     
       
     
-    <li>Welcome to MkDocs</li>
+    <li>스케쥴 편집</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -99,31 +132,59 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+                <h1 id="_1">스케쥴 편집</h1>
+<p>스케쥴을 클릭하면 스케쥴 편집창이 열립니다.</p>
+<p><img alt="" src="img/schedule_edit_open.gif" /></p>
+<h3 id="_2">미디어 선택</h3>
+<p>미디어 제목을 클릭하면 선택가능한 미디어 파일 리스트가 표시됩니다. 스케쥴을 추가하면 기본으로 rainbow.swf 가 선택되어 있고, 아래 메인 메뉴의 미디어 추가 버튼을 통해 미디어 파일을 리스트에 추가할 수 있습니다. 미디어 추가는 <a href="https://github.com/enthusapp/manual/wiki/MFPlayer-v2.0-Manual#%EB%AF%B8%EB%94%94%EC%96%B4-%EC%B6%94%EA%B0%80">아래 미디어 추가</a> 설명을 참조하십시요.</p>
+<p><img alt="" src="img/media_choose.gif" /></p>
+<h3 id="_3">위치 설정</h3>
+<p>미디어가 재생될 위치와 가로 세로 크기 정보를 입력합니다.
+<h4></p>
+<pre><code class="diff">- 위치 설정을 잘못 입력할 경우 아래의 메뉴 버튼을 가려 제어가 안될수 있으니 주의하시길 바랍니다.
 </code></pre>
+
+</h4>
+
+<p><img alt="" src="img/position_setting.jpg" /></p>
+<h3 id="_4">테스트</h3>
+<p>선택된 미디어와 위치 설정이 올바르게 되었는지 확인하려면 테스트 버튼을 누릅니다. 아래 메인 메뉴의 정지 버튼을 통해 테스트를 멈출 수 있습니다.</p>
+<p><img alt="" src="img/media_test.gif" /></p>
+<h3 id="_5">삭제</h3>
+<p>삭제 버튼을 클릭하면 경고메시지와 함께 스케쥴이 삭제됩니다.</p>
+<p><img alt="" src="img/delete.jpg" /></p>
+<h3 id="_6">활성화</h3>
+<p>스케쥴을 지우지 않고 사용하지 않는 상태로 유지하려면 활성화 박스를 클릭해서 상태를 바꿉니다. 활성화 되지 않은 스케쥴은 정해진 시간에 재생되지 않습니다.</p>
+<p><img alt="" src="img/enable.jpg" /></p>
+<h3 id="_7">시간 설정</h3>
+<h4 id="mfplayer-v20">MFPlayer v2.0 은 반복 재생을 위한 시간을 설정합니다. 시간 설정 버튼이 선택되어 있는 시간에만 반복적인 재생을 합니다.</h4>
+<p>스케쥴 편집창을 스크롤해 내리면 월, 요일, 시간, 분 설정 버튼을 선택할 수 있습니다.</p>
+<p><img alt="" src="img/time.gif" /></p>
+<p>매년 1월 일요일에만 저녁 6시에서 8시사이에 30동안만 미디어가 재생할 경우 아래의 그림과 같이 설정합니다.</p>
+<p><img alt="" src="img/time1.jpg" /></p>
+<p>일년동안 저녁 6시에서 밤 12시까지 재생하는 예시는 아래와 같습니다.</p>
+<p><img alt="" src="img/time2.jpg" /></p>
+<p>일년동안 저녁 9시에 5 분동안 재생하는 예시는 아래와 같습니다.</p>
+<p><img alt="" src="img/time3.jpg" /></p>
               
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="schedule_add/" class="btn btn-neutral float-right" title="스케쥴 추가">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+    </div>
   
 
   <hr/>
 
   <div role="contentinfo">
     <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2018 <a href="http://www.etslight.co.kr">ENTHUS</a>.</p>
     
   </div>
 
@@ -142,6 +203,8 @@ docs/
       
       
       
+        <span style="margin-left: 15px"><a href="schedule_add/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
     </span>
 </div>
     <script>var base_url = '.';</script>
@@ -153,5 +216,5 @@ docs/
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2018-12-27 04:48:42
+Build Date UTC : 2018-12-27 05:15:59
 -->
