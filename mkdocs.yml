@@ -1,2 +1,12 @@
 site_name: ENTHUS MFPlayer 메뉴얼
 theme: readthedocs
+
+nav:
+    - '스케쥴 편집': index.md
+    - '스케쥴 추가': schedule_add.md
+    - '재생 시작/정지': start_stop.md
+    - '편집 되돌리기': undo.md
+    - 'RGB TEST': rgb_test.md
+    - '미디어 추가': add_media.md
+
+copyright: Copyright &copy; 2018 <a href="http://www.etslight.co.kr">ENTHUS</a>.
