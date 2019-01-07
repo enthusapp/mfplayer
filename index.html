@@ -8,7 +8,7 @@
   <meta name="description" content="None">
   
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>스케쥴 설정 - ENTHUS MFPlayer 메뉴얼</title>
+  <title>Home - ENTHUS MFPlayer 메뉴얼</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="css/theme.css" type="text/css" />
@@ -17,7 +17,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "\uc2a4\ucf00\uc974 \uc124\uc815";
+    var mkdocs_page_name = "Home";
     var mkdocs_page_input_path = "index.md";
     var mkdocs_page_url = null;
   </script>
@@ -53,44 +53,34 @@
     <a class="" href="connect_remote/">원격 접속</a>
 	    </li>
           
-            <li class="toctree-l1 current">
+            <li class="toctree-l1">
 		
-    <a class="current" href=".">스케쥴 설정</a>
+    <span class="caption-text">스케쥴</span>
     <ul class="subnav">
-            
-    <li class="toctree-l2"><a href="#_1">스케쥴 추가</a></li>
-    
-
-    <li class="toctree-l2"><a href="#_2">편집</a></li>
-    
-
-    <li class="toctree-l2"><a href="#_3">미디어 선택</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l3" href="#group-play">Group Play</a></li>
-        
-        </ul>
-    
-
-    <li class="toctree-l2"><a href="#_4">위치 설정</a></li>
-    
-
-    <li class="toctree-l2"><a href="#_5">테스트</a></li>
-    
-
-    <li class="toctree-l2"><a href="#_6">삭제</a></li>
-    
-
-    <li class="toctree-l2"><a href="#_7">활성화</a></li>
-    
-
-    <li class="toctree-l2"><a href="#_8">시간 설정</a></li>
-    
-
-    <li class="toctree-l2"><a href="#_9">재생</a></li>
-    
-
+                <li class="">
+                    
+    <a class="" href="schedule_add/">추가 / 편집</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="media_select/">미디어 선택</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="position/">위치 설정</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="time/">시간 설정</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="delete_enable/">삭제 / 활성화</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="start_stop_test/">재생 / 정지 / 테스트</a>
+                </li>
     </ul>
 	    </li>
           
@@ -126,7 +116,7 @@
     
       
     
-    <li>스케쥴 설정</li>
+    <li>Home</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -136,54 +126,16 @@
           <div role="main">
             <div class="section">
               
-                <h3 id="_1">스케쥴 추가</h3>
-<p>하단 메뉴의 <strong>스케쥴 추가</strong> 버튼을 누르면, 모든 시간에 활성화되어 있는 기본 설정으로 새로운 스케쥴이 추가됩니다.</p>
-<p><img alt="" src="img/schedule_add_button.jpg" /></p>
-<h3 id="_2">편집</h3>
-<p>스케쥴을 클릭하면 스케쥴 편집창이 열립니다.</p>
-<p><img alt="" src="img/schedule_select.jpg" /></p>
-<p>테스트, 미디어 선택, 삭제, 위치 설정 및 시간 설정에 대한 메뉴가 나타납니다.</p>
-<p><img alt="" src="img/schedule_open.jpg" /></p>
-<h3 id="_3">미디어 선택</h3>
-<p>미디어 제목을 클릭하면 미디어 선택 창이 나타납니다.</p>
-<p><img alt="" src="img/media_window.jpg" /></p>
-<p>창의 상단에는 이전에 설정된 값이, 아래에는 선택가능한 파일 리스트가 표시됩니다.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>새로 추가된 스케쥴일 경우 기본으로 rainbow.swf 가 선택되어 있습니다.</p>
-</div>
-<h5 id="group-play">Group Play</h5>
-<p>MFPlayer 에는 여러개의 미디어 파일을 같은 설정으로 재생할 수 있는 Group Play 기능이 있습니다. 원하는 미디어 파일을 선택하면 차례대로 상단의 선택 리스트에 미디어 파일명이 표시됩니다.</p>
-<p><img alt="" src="img/media_select.jpg" /></p>
-<p>오른쪽 상단 완료버튼을 눌러 선택을 종료합니다.</p>
-<p><img alt="" src="img/media_select_complete.jpg" /></p>
-<p>스케쥴 제목에 선택된 파일 리스트가 표시되고, 각 미디어의 재생 시간이 표시됩니다. 재생 시간은 전체 활성화된 분 시간의 개수를 미디어의 개수로 나눈 값으로 설정됩니다.</p>
-<p><img alt="" src="img/media_select_complete_display.jpg" /></p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<ul>
-<li>60 분 활성화 / 2 개의 미디어 파일 선택 = 재생 시간: 30 분</li>
-<li>30 분 활성화 / 2 개의 미디어 파일 선택 = 재생 시간: 15 분</li>
-<li>30 분 활성화 / 5 개의 미디어 파일 선택 = 재생 시간: 6 분</li>
-<li>30 분 활성화 / 7 개의 미디어 파일 선택 = 재생 시간: 4 분 (7 번째 파일은 6 분 재생)</li>
-<li>10 분 활성화 / 11 개의 미디어 파일 선택 = 재생 시간: 1 분 (11 번째 파일 재생 안됨)</li>
-</ul>
-</div>
-<p>선택을 취소하려면 상단 오른쪽의 지우기 버튼을 눌러 차례로 삭제합니다.</p>
-<p><img alt="" src="img/media_select_delete.jpg" /></p>
-<h3 id="_4">위치 설정</h3>
-<p>미디어가 재생될 위치와 가로 세로 크기 정보를 입력합니다.</p>
-<p><img alt="" src="img/position_setting.jpg" /></p>
-<h3 id="_5">테스트</h3>
+                <h4 id="_1">테스트</h4>
 <p>선택된 미디어와 위치 설정이 올바르게 되었는지 확인하려면 테스트 버튼을 누릅니다. 아래 메인 메뉴의 정지 버튼을 통해 테스트를 멈출 수 있습니다.</p>
 <p><img alt="" src="img/media_test.jpg" /></p>
-<h3 id="_6">삭제</h3>
+<h4 id="_2">삭제</h4>
 <p>삭제 버튼을 클릭하면 경고메시지와 함께 스케쥴이 삭제됩니다.</p>
 <p><img alt="" src="img/delete.jpg" /></p>
-<h3 id="_7">활성화</h3>
+<h4 id="_3">활성화</h4>
 <p>스케쥴을 지우지 않고 사용하지 않는 상태로 유지하려면 활성화 박스를 클릭해서 상태를 바꿉니다. 활성화 되지 않은 스케쥴은 정해진 시간에 재생되지 않습니다.</p>
 <p><img alt="" src="img/enable.jpg" /></p>
-<h3 id="_8">시간 설정</h3>
+<h4 id="_4">시간 설정</h4>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>MFPlayer 는 반복 재생을 위한 시간을 설정합니다. 시간 설정 버튼이 선택되어 있는 시간에만 반복적인 재생을 합니다.</p>
@@ -196,22 +148,13 @@
 <p><img alt="" src="img/time2.jpg" /></p>
 <p>일년동안 저녁 9시에 5 분동안 재생하는 예시는 아래와 같습니다.</p>
 <p><img alt="" src="img/time3.jpg" /></p>
-<h3 id="_9">재생</h3>
+<h4 id="_5">재생</h4>
 <p>스케쥴 설정이 완료되면 <strong>재생 시작</strong> 버튼을 눌러 스케쥴 동작을 시작합니다. 스케쥴에 있는 시간 설정에 따라 정해진 시간에 미디어가 재생됩니다. 다시 <strong>정지</strong> 버튼을 눌러 스케쥴 동작을 멈출 수 있습니다.</p>
 <p><img alt="" src="img/run_stop.jpg" /></p>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="store_upgrade/" class="btn btn-neutral float-right" title="저장 / Upgrade">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="connect_remote/" class="btn btn-neutral" title="원격 접속"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
@@ -237,10 +180,6 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="connect_remote/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="store_upgrade/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
@@ -253,5 +192,5 @@
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-01-07 08:17:48
+Build Date UTC : 2019-01-07 08:48:25
 -->
