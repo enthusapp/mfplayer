@@ -2,22 +2,28 @@ site_name: ENTHUS MFPlayer 메뉴얼
 theme: readthedocs
 
 nav:
-    - '원격 접속': connect_remote.md
-    - '스케쥴 설정': index.md
-    - '저장 / Upgrade': store_upgrade.md
+- '원격 접속': connect_remote.md
+- '스케쥴':
+    - '추가 / 편집': 'schedule_add.md'
+    - '미디어 선택': 'media_select.md'
+    - '위치 설정': 'position.md'
+    - '시간 설정': 'time.md'
+    - '삭제 / 활성화': 'delete_enable.md'
+    - '재생 / 정지': 'start_stop_test.md'
+- '저장 / Upgrade': store_upgrade.md
+- '연출 동기화 설정': server.md
 
 pagetitle: ENTHUS MFPlayer 메뉴얼
 title: ENTHUS MFPlayer 메뉴얼
 
 markdown_extensions:
     - admonition
+    - toc:
+        baselevel: 2
 
 pages:
-    - '스케쥴 편집': index.md
-    - '스케쥴 추가': schedule_add.md
-    - '재생 시작/정지': start_stop.md
-    - '편집 되돌리기': undo.md
-    - 'RGB TEST': rgb_test.md
-    - '미디어 추가': add_media.md
+    - '원격 접속': connect_remote.md
+    - '스케쥴 설정': index.md
+    - '저장 / Upgrade': store_upgrade.md
 
 copyright: Copyright &copy; 2018 <a href="http://www.etslight.co.kr">ENTHUS</a>.
