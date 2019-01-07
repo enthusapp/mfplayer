@@ -2,6 +2,17 @@ site_name: ENTHUS MFPlayer 메뉴얼
 theme: readthedocs
 
 nav:
+    - '원격 접속': connect_remote.md
+    - '스케쥴 설정': index.md
+    - '저장 / Upgrade': store_upgrade.md
+
+pagetitle: ENTHUS MFPlayer 메뉴얼
+title: ENTHUS MFPlayer 메뉴얼
+
+markdown_extensions:
+    - admonition
+
+pages:
     - '스케쥴 편집': index.md
     - '스케쥴 추가': schedule_add.md
     - '재생 시작/정지': start_stop.md
