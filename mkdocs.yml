@@ -3,7 +3,7 @@ theme: readthedocs
 
 nav:
 - '원격 접속': connect_remote.md
-- '스케쥴 추가 / 편집': 'schedule_add.md'
+- '스케쥴 추가 / 편집': 'index.md'
 - '미디어 선택': 'media_select.md'
 - '위치 / 크기 설정': 'position.md'
 - '시간 설정': 'time.md'
