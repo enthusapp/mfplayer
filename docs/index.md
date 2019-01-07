@@ -4,6 +4,6 @@
 ![](img/schedule_add_button.jpg)
 
 ### 편집
-스케쥴을 클릭하면 스케쥴 편집창이 열립니다. 편집창에서는 [테스트](/start_stop_test), [미디어 선택](/media_select), [삭제](/delete_enable), [위치 설정](/position) 및 [시간 설정](/time)이 가능합니다.
+스케쥴을 클릭하면 스케쥴 편집창이 열립니다. 편집창에서는 [테스트](/mfplayer/start_stop_test), [미디어 선택](/mfplayer/media_select), [삭제](/mfplayer/delete_enable), [위치 설정](/mfplayer/position) 및 [시간 설정](/mfplayer/time)이 가능합니다.
 
 ![](img/schedule_open.jpg)
