@@ -9,7 +9,7 @@ nav:
     - '위치 설정': 'position.md'
     - '시간 설정': 'time.md'
     - '삭제 / 활성화': 'delete_enable.md'
-    - '재생 / 정지': 'start_stop_test.md'
+    - '재생 / 정지 / 테스트': 'start_stop_test.md'
 - '저장 / Upgrade': store_upgrade.md
 - '연출 동기화 설정': server.md
 
