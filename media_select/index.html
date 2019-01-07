@@ -55,39 +55,41 @@
           
             <li class="toctree-l1">
 		
-    <span class="caption-text">스케쥴</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../schedule_add/">추가 / 편집</a>
-                </li>
-                <li class=" current">
-                    
+    <a class="" href="../schedule_add/">스케쥴 추가 / 편집</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
     <a class="current" href="./">미디어 선택</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#group-play">Group Play</a></li>
+    <li class="toctree-l2"><a href="#_1">미디어 선택</a></li>
+    
+
+    <li class="toctree-l2"><a href="#group-play">Group Play</a></li>
     
 
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../position/">위치 설정</a>
-                </li>
-                <li class="">
-                    
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../position/">위치 / 크기 설정</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../time/">시간 설정</a>
-                </li>
-                <li class="">
-                    
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../delete_enable/">삭제 / 활성화</a>
-                </li>
-                <li class="">
-                    
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../start_stop_test/">재생 / 정지 / 테스트</a>
-                </li>
-    </ul>
 	    </li>
           
             <li class="toctree-l1">
@@ -121,10 +123,6 @@
     <li><a href="..">Docs</a> &raquo;</li>
     
       
-        
-          <li>스케쥴 &raquo;</li>
-        
-      
     
     <li>미디어 선택</li>
     <li class="wy-breadcrumbs-aside">
@@ -136,32 +134,38 @@
           <div role="main">
             <div class="section">
               
-                <p>미디어 제목을 클릭하면 미디어 선택 창이 나타납니다.</p>
-<p><img alt="" src="../img/media_window.jpg" /></p>
+                <h4 id="_1">미디어 선택</h4>
+<p>재생할 파일을 선택하기 위해 <code>미디어 선택</code> 버튼을 클릭합니다.</p>
+<p><img alt="" src="../img/media_select_button.jpg" /></p>
 <p>창의 상단에는 이전에 설정된 값이, 아래에는 선택가능한 파일 리스트가 표시됩니다.</p>
+<p><img alt="" src="../img/media_window.jpg" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>새로 추가된 스케쥴일 경우 기본으로 rainbow.swf 가 선택되어 있습니다.</p>
 </div>
-<h6 id="group-play">Group Play</h6>
+<h4 id="group-play">Group Play</h4>
 <p>MFPlayer 에는 여러개의 미디어 파일을 같은 설정으로 재생할 수 있는 Group Play 기능이 있습니다. 원하는 미디어 파일을 선택하면 차례대로 상단의 선택 리스트에 미디어 파일명이 표시됩니다.</p>
-<p><img alt="" src="img/media_select.jpg" /></p>
+<p><img alt="" src="../img/media_select.jpg" /></p>
 <p>오른쪽 상단 완료버튼을 눌러 선택을 종료합니다.</p>
-<p><img alt="" src="img/media_select_complete.jpg" /></p>
+<p><img alt="" src="../img/media_select_complete.jpg" /></p>
 <p>스케쥴 제목에 선택된 파일 리스트가 표시되고, 각 미디어의 재생 시간이 표시됩니다. 재생 시간은 전체 활성화된 분 시간의 개수를 미디어의 개수로 나눈 값으로 설정됩니다.</p>
-<p><img alt="" src="img/media_select_complete_display.jpg" /></p>
+<p><img alt="" src="../img/media_select_complete_display.jpg" /></p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
+</div>
 <ul>
+<li>Group Play 설정 예시<ul>
+<li>60 분 활성화 / 1 개의 미디어 파일 선택 = 재생 시간: 60 분</li>
 <li>60 분 활성화 / 2 개의 미디어 파일 선택 = 재생 시간: 30 분</li>
 <li>30 분 활성화 / 2 개의 미디어 파일 선택 = 재생 시간: 15 분</li>
 <li>30 분 활성화 / 5 개의 미디어 파일 선택 = 재생 시간: 6 분</li>
 <li>30 분 활성화 / 7 개의 미디어 파일 선택 = 재생 시간: 4 분 (7 번째 파일은 6 분 재생)</li>
 <li>10 분 활성화 / 11 개의 미디어 파일 선택 = 재생 시간: 1 분 (11 번째 파일 재생 안됨)</li>
 </ul>
-</div>
-<p>선택을 취소하려면 상단 오른쪽의 지우기 버튼을 눌러 차례로 삭제합니다.</p>
-<p><img alt="" src="img/media_select_delete.jpg" /></p>
+</li>
+</ul>
+<p>선택을 취소하려면 다시 <code>미디어 선택</code> 버튼을 누르고 상단 오른쪽의 <code>지우기</code> 버튼을 눌러 차례로 삭제합니다.</p>
+<p><img alt="" src="../img/media_select_delete.jpg" /></p>
               
             </div>
           </div>
@@ -169,10 +173,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../position/" class="btn btn-neutral float-right" title="위치 설정">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../position/" class="btn btn-neutral float-right" title="위치 / 크기 설정">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../schedule_add/" class="btn btn-neutral" title="추가 / 편집"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../schedule_add/" class="btn btn-neutral" title="스케쥴 추가 / 편집"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
