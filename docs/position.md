@@ -2,7 +2,7 @@
 
 ![](img/position_setting.jpg)
 
-X / Y 는 미디어 재생 화면의 가로 세로 위치를, Height / Width 는 재생화면의 가로 세로 크기를 각각 설정합니다. Brightness 값을 조정하면 연출 미디어의 밝기를 변경됩니다. Brightness 는 0 ~ 100 % 밝기로 조절됩니다.
+X / Y 는 미디어 재생 화면의 가로 세로 위치를, Height / Width 는 재생화면의 가로 세로 크기를 각각 설정합니다. Brightness 값을 조정하면 연출 미디어의 밝기가 변경됩니다. 밝기는 0 ~ 100 % 의 비율로 조절됩니다.
 
 ![](img/position.jpg)
 
