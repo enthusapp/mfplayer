@@ -10,6 +10,6 @@
 하단 메인 메뉴의 `UPGRADE` 버튼을 누르면 MFPlayer 가 최신 버젼 소프트웨어로 업그레이드 됩니다.
 
 !!! warning
-    안정버젼으로 업그레이드하기 위해서는 반드시 실행전 [엔토스](www.etslight.co.kr)에 문의하시기 바랍니다.
+    안정버젼으로 업그레이드하기 위해서는 반드시 실행전 [엔토스](http://www.etslight.co.kr)에 문의하시기 바랍니다.
 
 ![](img/upgrade.jpg)
