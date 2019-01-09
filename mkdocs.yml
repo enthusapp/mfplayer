@@ -1,11 +1,11 @@
-site_name: ENTHUS MFPlayer 메뉴얼
+site_name: ENTHUS MFPlayer v2.1.3
 theme: readthedocs
 
 nav:
 - '원격 접속': connect_remote.md
 - '스케쥴 추가 / 편집': 'index.md'
 - '미디어 선택': 'media_select.md'
-- '위치 / 크기 설정': 'position.md'
+- '위치 / 크기 / 밝기 설정': 'position.md'
 - '시간 설정': 'time.md'
 - '삭제 / 활성화': 'delete_enable.md'
 - '재생 / 정지 / 테스트': 'start_stop_test.md'
