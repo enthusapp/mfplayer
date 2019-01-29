@@ -10,8 +10,10 @@ nav:
 - '삭제 / 활성화': 'delete_enable.md'
 - '재생 / 정지 / 테스트': 'start_stop_test.md'
 - '저장 / Upgrade': store_upgrade.md
-- '연출 동기화 설정': server.md
+- '파일 추가': file_add.md
+- '글자 연출': esign.md
 - '미세먼지 표시': air_pollution.md
+- '연출 동기화 설정': server.md
 - '원격 접속': connect_remote.md
 
 pagetitle: ENTHUS MFPlayer 메뉴얼
