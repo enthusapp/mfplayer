@@ -1,4 +1,4 @@
-### 미디어 선택
+# 미디어 선택
 재생할 파일을 선택하기 위해 `미디어 선택` 버튼을 클릭합니다.
 
 ![](img/media_select_button.jpg)
@@ -10,7 +10,7 @@
 !!! note
     새로 추가된 스케쥴일 경우 기본으로 rainbow.swf 가 선택되어 있습니다.
 
-### Group Play
+# Group Play
 MFPlayer 에는 여러개의 미디어 파일을 같은 설정으로 재생할 수 있는 Group Play 기능이 있습니다. 원하는 미디어 파일을 선택하면 차례대로 상단의 선택 리스트에 미디어 파일명이 표시됩니다.
 
 ![](img/media_select.jpg)
