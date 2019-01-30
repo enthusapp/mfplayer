@@ -1,20 +1,23 @@
-site_name: ENTHUS MFPlayer v2.1.3
+site_name: ENTHUS MFPlayer v2.1.4
 theme: readthedocs
 
 nav:
 - 'MFPlayer': 'index.md'
-- '스케쥴 추가 / 편집': 'schedule_add.md'
-- '미디어 선택': 'media_select.md'
-- '위치 / 크기 / 밝기 설정': 'position.md'
-- '시간 설정': 'time.md'
-- '삭제 / 활성화': 'delete_enable.md'
-- '재생 / 정지 / 테스트': 'start_stop_test.md'
-- '저장 / Upgrade': store_upgrade.md
-- '파일 추가': file_add.md
-- '글자 연출': esign.md
-- '미세먼지 표시': air_pollution.md
-- '연출 동기화 설정': server.md
-- '원격 접속': connect_remote.md
+- '스케쥴':
+    - '추가 / 편집': 'schedule_add.md'
+    - '미디어 선택': 'media_select.md'
+    - '위치 / 크기 / 밝기 설정': 'position.md'
+    - '시간 설정': 'time.md'
+    - '삭제 / 활성화': 'delete_enable.md'
+- '제어':
+    - '재생 / 정지 / 테스트': 'start_stop_test.md'
+    - '저장 / Upgrade': store_upgrade.md
+    - '파일 추가': file_add.md
+    - '연출 동기화 설정': server.md
+    - '원격 접속': connect_remote.md
+- '사용자 연출':
+    - '글자 표시': esign.md
+    - '미세먼지 표시': air_pollution.md
 
 pagetitle: ENTHUS MFPlayer 메뉴얼
 title: ENTHUS MFPlayer 메뉴얼
