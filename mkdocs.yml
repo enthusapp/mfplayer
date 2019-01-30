@@ -2,7 +2,7 @@ site_name: ENTHUS MFPlayer v2.1.4
 theme: readthedocs
 
 nav:
-- 'MFPlayer': 'index.md'
+- 'MFPlayer': index.md
 - '스케쥴':
     - '추가 / 편집': 'schedule_add.md'
     - '미디어 선택': 'media_select.md'
@@ -16,8 +16,8 @@ nav:
     - '연출 동기화 설정': server.md
     - '원격 접속': connect_remote.md
 - '사용자 연출':
-    - '글자 표시': esign.md
-    - '미세먼지 표시': air_pollution.md
+    - '메시지 편집기': esign.md
+    - '미세먼지 Visualizer': air_pollution.md
 
 pagetitle: ENTHUS MFPlayer 메뉴얼
 title: ENTHUS MFPlayer 메뉴얼
