@@ -7,16 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  <link rel="shortcut icon" href="/img/favicon.ico">
-  <title>ENTHUS MFPlayer v2.1.4</title>
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>미세먼지 Visualizer - ENTHUS MFPlayer v2.1.4</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="/css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
-  <script src="/js/jquery-2.1.1.min.js" defer></script>
-  <script src="/js/modernizr-2.8.3.min.js" defer></script>
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\ubbf8\uc138\uba3c\uc9c0 Visualizer";
+    var mkdocs_page_input_path = "air_pollution.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
@@ -29,9 +36,9 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="/." class="icon icon-home"> ENTHUS MFPlayer v2.1.4</a>
+        <a href=".." class="icon icon-home"> ENTHUS MFPlayer v2.1.4</a>
         <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="//search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -43,7 +50,7 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="/.">MFPlayer</a>
+    <a class="" href="..">MFPlayer</a>
 	    </li>
           
             <li class="toctree-l1">
@@ -52,23 +59,23 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="/schedule_add/">추가 / 편집</a>
+    <a class="" href="../schedule_add/">추가 / 편집</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/media_select/">미디어 선택</a>
+    <a class="" href="../media_select/">미디어 선택</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/position/">위치 / 크기 / 밝기 설정</a>
+    <a class="" href="../position/">위치 / 크기 / 밝기 설정</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/time/">시간 설정</a>
+    <a class="" href="../time/">시간 설정</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/delete_enable/">삭제 / 활성화</a>
+    <a class="" href="../delete_enable/">삭제 / 활성화</a>
                 </li>
     </ul>
 	    </li>
@@ -79,23 +86,23 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="/start_stop_test/">재생 / 정지 / 테스트</a>
+    <a class="" href="../start_stop_test/">재생 / 정지 / 테스트</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/store_upgrade/">저장 / Upgrade</a>
+    <a class="" href="../store_upgrade/">저장 / Upgrade</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/file_add/">파일 추가</a>
+    <a class="" href="../file_add/">파일 추가</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/server/">연출 동기화 설정</a>
+    <a class="" href="../server/">연출 동기화 설정</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="/connect_remote/">원격 접속</a>
+    <a class="" href="../connect_remote/">원격 접속</a>
                 </li>
     </ul>
 	    </li>
@@ -106,11 +113,14 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="/esign/">메시지 편집기</a>
+    <a class="" href="../esign/">메시지 편집기</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="/air_pollution/">미세먼지 Visualizer</a>
+    <a class="current" href="./">미세먼지 Visualizer</a>
+    <ul class="subnav">
+            
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -125,7 +135,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="/.">ENTHUS MFPlayer v2.1.4</a>
+        <a href="..">ENTHUS MFPlayer v2.1.4</a>
       </nav>
 
       
@@ -133,9 +143,15 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="/.">Docs</a> &raquo;</li>
+    <li><a href="..">Docs</a> &raquo;</li>
     
+      
+        
+          <li>사용자 연출 &raquo;</li>
+        
+      
     
+    <li>미세먼지 Visualizer</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -145,15 +161,21 @@
           <div role="main">
             <div class="section">
               
-
-  <h1 id="404-page-not-found">404</h1>
-
-  <p><strong>Page not found</strong></p>
-
-
+                <p>MFPlayer 는 한국환경공단(https://www.airkorea.or.kr)에서 제공하는 미세먼지 데이터를 이용하여 미디어 파사드를 통해 표출합니다.</p>
+<p><img alt="" src="../img/airkorea.jpg" /></p>
+<p>미세먼지 시각화(Visualizer)에는 <strong>그래프</strong>, <strong>글자 표시</strong>, <strong>색상표</strong> 등의 다양한 방법이 있습니다. 아래 그림은 미세먼지 시각화의 한 예입니다. 엔토스는 사용자의 미디어 파사드 설치환경에 맞는 최적화된 미세먼지 시각화 방법을 제공합니다.</p>
+<p><img alt="" src="../img/air_pollution.jpg" /></p>
+              
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../esign/" class="btn btn-neutral" title="메시지 편집기"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -179,12 +201,14 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
+        <span><a href="../esign/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
       
     </span>
 </div>
-    <script>var base_url = '/';</script>
-    <script src="/js/theme.js" defer></script>
-      <script src="/search/main.js" defer></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
