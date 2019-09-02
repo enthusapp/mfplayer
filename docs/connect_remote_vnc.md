@@ -23,7 +23,7 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 설치가 완료되면 VNC Viewer 를 실행하고 엔토스 담당자에게 받은 IP Address 와 ID 및 password 를 입력하여 MFPlayer 에 접속합니다.
 
-![](img/vnc_ip.jpg)
+![](img/vnc_ip_connect.jpg)
 
 접속이 정상적으로 완료되면 아래와 같이 MFPlayer 제어화면이 나타납니다.
 
@@ -49,11 +49,11 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 파일 전송 윈도우에서 파일 선택 버튼을 클릭합니다.
 
-![](img/vnc/vnc_file_trans_select.jpg)
+![](img/vnc/vnc_file_trans_file_select.jpg)
 
 내컴퓨터에서 전송할 파일을 선택합니다.
 
-![](img/vnc/vnc_file_trans_file_select.jpg)
+![](img/vnc/vnc_file_trans_select.jpg)
 
 전송이 완료된 화면은 아래와 같습니다.
 
