@@ -16,7 +16,8 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 [RealVNC VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 에 접속하여 다운로드 버튼을 누르고 사용하는 운영체제에 맞는 설치 파일을 받아 실행합니다.
 
-![](img/vnc_down.jpg)
+![](img/vnc/vnc_download.jpg)
+
 
 **원격 접속**
 
@@ -26,29 +27,46 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 접속이 정상적으로 완료되면 아래와 같이 MFPlayer 제어화면이 나타납니다.
 
-![](img/vnc_connect_complete.jpg)
+![](img/vnc/vnc_connect_complete.jpg)
 
 **미디어 파일 전송**
 
-파일 전송 버튼을 눌르면 전송창이 나타납니다.
+제어 화면의 중앙 상단에 VNC 제어 메뉴판이 숨겨져 있는 것을 확인 할 수 있습니다.
 
-![](img/vnc_send_window.jpg)
+![](img/vnc/vnc_file_menu.jpg)
 
-전송창의 왼쪽 부분은 내컴퓨터, 오른쪽은 MFPlayer 서버의 폴더입니다.
+마우스를 숨겨져 있는 메뉴판 근처로 가져가면 파일 전송을 위한 메뉴판이 나타납니다.
 
-![](img/vnc_file_window.jpg)
+![](img/vnc/vnc_file_menu_on.jpg)
+
+메뉴판에서 파일 전송 아이콘을 선택합니다.
+
+![](img/vnc/vnc_file_trans_button.jpg)
+
+파일 전송을 위한 윈도우가 나타납니다.
+
+![](img/vnc/vnc_file_trans_window.jpg)
+
+파일 전송 윈도우에서 파일 선택 버튼을 클릭합니다.
+
+![](img/vnc/vnc_file_trans_select.jpg)
 
 내컴퓨터에서 전송할 파일을 선택합니다.
 
-![](img/vnc_file_select.jpg)
+![](img/vnc/vnc_file_trans_file_select.jpg)
 
-오른쪽 부분에서 `/home/enthus/mf_player/media` 폴더를 선택합니다.
+전송이 완료된 화면은 아래와 같습니다.
 
-![](img/vnc_folder_select.jpg)
+![](img/vnc/vnc_file_trans_done.jpg)
 
-화살표 모양의 전송버튼을 누르면 왼쪽 아래 부분에 전송 상태가 표시되면서 진행이 되기 시작합니다.
+파일 전송 윈도우를 닫습니다. 하지만 MFPlayer 원격 창에 열려있는 파일 전송 윈도우도 같이 닫아야 합니다.
 
-![](img/teamviewer_send_complete.jpg)
+![](img/vnc/vnc_file_remote_window.jpg)
+
+MFPlayer 의 아래쪽에 파일 전송 윈도우의 상태창을 오른쪽 클릭하면 윈도우를 닫을 수 있는 메뉴가 나타납니다.
+창닫기를 선택해 파일 전송 윈도우를 닫아 파일 전송을 완료합니다.
+
+![](img/vnc/vnc_file_remote_window_right.jpg)
 
 **전송 파일 확인**
 
@@ -57,3 +75,9 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 **시간 설정**
 
 MFPlayer 에는 NTP(Network Time Protocol) 를 이용한 자동 시간 설정 기능이 있습니다. 하지만 인터넷망에 연결되지 못할 경우 명령창을 이용하여 시간을 설정해야 합니다.
+
+![](img/vnc/vnc_time_command_select.jpg)
+![](img/vnc/vnc_time_command_selected.jpg)
+![](img/vnc/vnc_time_date.jpg)
+![](img/vnc/vnc_time_date_done.jpg)
+![](img/vnc/vnc_time_exit.jpg)
