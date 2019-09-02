@@ -1,0 +1,59 @@
+**VNC(Virtual Network Computing) 를 이용한 원격제어**
+
+VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환경에서 RFB 프로토콜을 이용하여 원격으로 다른 컴퓨터를 제어하는 그래픽 데스크톱 공유 시스템입니다.
+자판과 마우스 이벤트를 한 컴퓨터에서 다른 컴퓨터로 전송시켜서 네트워크를 거쳐 그래픽 화면을 갱신하는 방식을 제공합니다.
+
+공개된 표준 프로토콜이기 때문에 로컬 환경에서 라이센스 문제없이 무료로 사용이 가능한 툴이 다양하게 있습니다.
+
+대표적으로 RealVNC 의 VNC Viewer 와 tightVNC, Chrome 에서 사용가능한 VNC 확장기능, Ubuntu 의 vino 등의 툴이 있습니다.
+
+가장 많이 사용되는 툴인 RealVNC 의 VNC Viewer 를 사용하여 MFPlayer 를 제어하는 방법을 설명드리겠습니다.
+
+!!! note
+    아래에 설명된 VNC Viewer 설치 및 사용방법에 어려움이 있을 경우 언제든지 [엔토스](http://www.etslight.co.kr)에 문의하여 기술 지원을 받으시기 바랍니다.
+
+**다운로드 및 설치**
+
+[RealVNC VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) 에 접속하여 다운로드 버튼을 누르고 사용하는 운영체제에 맞는 설치 파일을 받아 실행합니다.
+
+![](img/teamviewer_down.jpg)
+
+기본 설정 이외에 자세한 내용은 [www.teamviewer.com](https://www.teamviewer.com/ko/) 을 참조하십시요.
+
+**원격 접속**
+
+설치가 완료되면 TeamViewer 를 실행하고 엔토스 담당자에게 받은 ID 와 password 를 입력하여 MFPlayer 에 접속합니다.
+
+![](img/teamviewer_id.jpg)
+
+![](img/teamviewer_password.jpg)
+
+접속이 정상적으로 완료되면 아래와 같이 MFPlayer 제어화면이 나타납니다.
+
+![](img/teamviewer_connect_complete.jpg)
+
+**미디어 파일 전송**
+
+파일 전송 버튼을 눌르면 전송창이 나타납니다.
+
+![](img/teamviewer_send_button.jpg)
+
+전송창의 왼쪽 부분은 내컴퓨터, 오른쪽은 MFPlayer 서버의 폴더입니다.
+
+![](img/teamviewer_file_window.jpg)
+
+내컴퓨터에서 전송할 파일을 선택합니다.
+
+![](img/teamviewer_file_select.jpg)
+
+오른쪽 부분에서 `/home/enthus/mf_player/media` 폴더를 선택합니다.
+
+![](img/teamviewer_folder_select.jpg)
+
+화살표 모양의 전송버튼을 누르면 왼쪽 아래 부분에 전송 상태가 표시되면서 진행이 되기 시작합니다.
+
+![](img/teamviewer_send_complete.jpg)
+
+**전송 파일 확인**
+
+스케쥴 편집의 미디어 선택 버튼을 누르면 전송이 완료된 파일들이 리스트로 표시됩니다. 미디어 파일을 선택하여 사용하는 방법은 이어지는 [스케쥴 추가 / 편집](/mfplayer/index) 문서에서 확인하시기 바랍니다.
