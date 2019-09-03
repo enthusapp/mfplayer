@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Connect remote vnc - ENTHUS MFPlayer v2.1.4</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Connect remote vnc";
+    var mkdocs_page_input_path = "connect_remote_vnc.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> ENTHUS MFPlayer v2.1.4</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">MFPlayer</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">스케쥴</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../schedule_add/">추가 / 편집</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../media_select/">미디어 선택</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../position/">위치 / 크기 / 밝기 설정</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../time/">시간 설정</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../delete_enable/">삭제 / 활성화</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">제어</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../start_stop_test/">재생 / 정지 / 테스트</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../store_upgrade/">저장 / Upgrade</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../file_add/">파일 추가</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../server/">연출 동기화 설정</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../connect_remote/">원격 접속</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">사용자 연출</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../esign/">메시지 편집기</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../air_pollution/">미세먼지 Visualizer</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">ENTHUS MFPlayer v2.1.4</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Connect remote vnc</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><strong>VNC(Virtual Network Computing) 를 이용한 원격제어</strong></p>
+<p>VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환경에서 RFB 프로토콜을 이용하여 원격으로 다른 컴퓨터를 제어하는 그래픽 데스크톱 공유 시스템입니다.
+자판과 마우스 이벤트를 한 컴퓨터에서 다른 컴퓨터로 전송시켜서 네트워크를 거쳐 그래픽 화면을 갱신하는 방식을 제공합니다.</p>
+<p>공개된 표준 프로토콜이기 때문에 로컬 환경에서 라이센스 문제없이 무료로 사용이 가능한 툴이 다양하게 있습니다.</p>
+<p>대표적으로 RealVNC 의 VNC Viewer 와 tightVNC, Chrome 에서 사용가능한 VNC 확장기능, Ubuntu 의 vino 등의 툴이 있습니다.</p>
+<p>가장 많이 사용되는 툴인 RealVNC 의 VNC Viewer 를 사용하여 MFPlayer 를 제어하는 방법을 설명드리겠습니다.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>아래에 설명된 VNC Viewer 설치 및 사용방법에 어려움이 있을 경우 언제든지 <a href="http://www.etslight.co.kr">엔토스</a>에 문의하여 기술 지원을 받으시기 바랍니다.</p>
+</div>
+<p><strong>다운로드 및 설치</strong></p>
+<p><a href="https://www.realvnc.com/en/connect/download/viewer/">RealVNC VNC Viewer</a> 에 접속하여 다운로드 버튼을 누르고 사용하는 운영체제에 맞는 설치 파일을 받아 실행합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_download.jpg" /></p>
+<p><strong>원격 접속</strong></p>
+<p>설치가 완료되면 VNC Viewer 를 실행하고 엔토스 담당자에게 받은 IP Address 와 ID 및 password 를 입력하여 MFPlayer 에 접속합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_ip_connect.jpg" /></p>
+<p>접속이 정상적으로 완료되면 아래와 같이 MFPlayer 제어화면이 나타납니다.</p>
+<p><img alt="" src="../img/vnc/vnc_connect_complete.jpg" /></p>
+<p><strong>미디어 파일 전송</strong></p>
+<p>제어 화면의 중앙 상단에 VNC 제어 메뉴판이 숨겨져 있는 것을 확인 할 수 있습니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_menu.jpg" /></p>
+<p>마우스를 숨겨져 있는 메뉴판 근처로 가져가면 파일 전송을 위한 메뉴판이 나타납니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_menu_on.jpg" /></p>
+<p>메뉴판에서 파일 전송 아이콘을 선택합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_trans_select.jpg" /></p>
+<p>파일 전송을 위한 윈도우가 나타납니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_trans_window.jpg" /></p>
+<p>파일 전송 윈도우에서 파일 선택 버튼을 클릭합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_trans_button.jpg" /></p>
+<p>내컴퓨터에서 전송할 파일을 선택합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_trans_file_select.jpg" /></p>
+<p>전송이 완료된 화면은 아래와 같습니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_trans_done.jpg" /></p>
+<p>파일 전송 윈도우를 닫습니다. 하지만 MFPlayer 원격 창에 열려있는 파일 전송 윈도우도 같이 닫아야 합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_remote_window.jpg" /></p>
+<p>MFPlayer 의 아래쪽에 파일 전송 윈도우의 상태창을 오른쪽 클릭하면 윈도우를 닫을 수 있는 메뉴가 나타납니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_remote_window_right.jpg" /></p>
+<p>창닫기를 선택해 파일 전송 윈도우를 닫아 파일 전송을 완료합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_file_remote_window_close.jpg" /></p>
+<p><strong>전송 파일 확인</strong></p>
+<p>스케쥴 편집의 미디어 선택 버튼을 누르면 전송이 완료된 파일들이 리스트로 표시됩니다. 미디어 파일을 선택하여 사용하는 방법은 이어지는 <a href="/mfplayer/index">스케쥴 추가 / 편집</a> 문서에서 확인하시기 바랍니다.</p>
+<p><strong>시간 설정</strong></p>
+<p>MFPlayer 에는 NTP(Network Time Protocol) 를 이용한 자동 시간 설정 기능이 있습니다. 하지만 인터넷망에 연결되지 못할 경우 명령창을 이용하여 시간을 설정해야 합니다.</p>
+<p>원격 제어 화면의 아래창에 있는 명령어 입력창을 클릭합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_time_command_select.jpg" /></p>
+<p>아래와 같이 명령어 입력창이 나타나는것을 확인할 수 있습니다.</p>
+<p><img alt="" src="../img/vnc/vnc_time_command_selected.jpg" /></p>
+<p>아래의 명령어와 같이 시간 정보를 입력합니다.</p>
+<pre><code>sudo date -s &quot;2019-09-01 17:30:00&quot;
+</code></pre>
+
+<p><img alt="" src="../img/vnc/vnc_time_date.jpg" /></p>
+<p>명령어가 정상 입력되면 아래와 같은 출력이 표시됩니다.</p>
+<p><img alt="" src="../img/vnc/vnc_time_date_done.jpg" /></p>
+<p>시간 설정이 완료된 뒤에는 <code>exit</code> 명령을 이용하여 명령어 창을 종료 시킵니다.
+하단 오른쪽의 화면 시계에 반영될때까지 5 ~ 10 분의 시간이 필요합니다.</p>
+<p><img alt="" src="../img/vnc/vnc_time_exit.jpg" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2018 <a href="http://www.etslight.co.kr">ENTHUS</a>.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
