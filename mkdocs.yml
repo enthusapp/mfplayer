@@ -15,6 +15,7 @@ nav:
     - '파일 추가': file_add.md
     - '연출 동기화 설정': server.md
     - '원격 접속': connect_remote.md
+    - 'VNC 원격 접속': connect_remote_vnc.md
 - '사용자 연출':
     - '메시지 편집기': esign.md
     - '미세먼지 Visualizer': air_pollution.md
