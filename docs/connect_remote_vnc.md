@@ -22,7 +22,7 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 설치가 완료되면 VNC Viewer 를 실행하고 엔토스 담당자에게 받은 IP Address 와 ID 및 password 를 입력하여 MFPlayer 에 접속합니다.
 
-![](img/vnc_ip_connect.jpg)
+![](img/vnc/vnc_ip_connect.jpg)
 
 접속이 정상적으로 완료되면 아래와 같이 MFPlayer 제어화면이 나타납니다.
 
