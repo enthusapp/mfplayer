@@ -18,7 +18,6 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 ![](img/vnc/vnc_download.jpg)
 
-
 **원격 접속**
 
 설치가 완료되면 VNC Viewer 를 실행하고 엔토스 담당자에게 받은 IP Address 와 ID 및 password 를 입력하여 MFPlayer 에 접속합니다.
