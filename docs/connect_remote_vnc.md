@@ -40,7 +40,7 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 메뉴판에서 파일 전송 아이콘을 선택합니다.
 
-![](img/vnc/vnc_file_trans_button.jpg)
+![](img/vnc/vnc_file_trans_select.jpg)
 
 파일 전송을 위한 윈도우가 나타납니다.
 
@@ -48,11 +48,11 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 
 파일 전송 윈도우에서 파일 선택 버튼을 클릭합니다.
 
-![](img/vnc/vnc_file_trans_file_select.jpg)
+![](img/vnc/vnc_file_trans_button.jpg)
 
 내컴퓨터에서 전송할 파일을 선택합니다.
 
-![](img/vnc/vnc_file_trans_select.jpg)
+![](img/vnc/vnc_file_trans_file_select.jpg)
 
 전송이 완료된 화면은 아래와 같습니다.
 
@@ -63,9 +63,12 @@ VNC(Virtual Network Computing, 가상 네트워크 컴퓨팅)는 컴퓨터 환�
 ![](img/vnc/vnc_file_remote_window.jpg)
 
 MFPlayer 의 아래쪽에 파일 전송 윈도우의 상태창을 오른쪽 클릭하면 윈도우를 닫을 수 있는 메뉴가 나타납니다.
-창닫기를 선택해 파일 전송 윈도우를 닫아 파일 전송을 완료합니다.
 
 ![](img/vnc/vnc_file_remote_window_right.jpg)
+
+창닫기를 선택해 파일 전송 윈도우를 닫아 파일 전송을 완료합니다.
+
+![](img/vnc/vnc_file_remote_window_close.jpg)
 
 **전송 파일 확인**
 
