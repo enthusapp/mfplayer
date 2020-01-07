@@ -15,3 +15,8 @@ pip install mkdocs
 mkdocs serve
 python -m mkdocs serve
 ```
+
+### Publishing
+```
+mkdocs gh-deploy
+```
