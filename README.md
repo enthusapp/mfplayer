@@ -22,4 +22,5 @@ mkdocs gh-deploy
 ```
 
 ### To PDF
-Google Docs 이용
+1. Google Docs 에 각 페이지 붙여넣기
+2. PDF 로 저장
