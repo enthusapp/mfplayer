@@ -6,6 +6,7 @@ nav:
 - '스케쥴':
     - '추가 / 편집': 'schedule_add.md'
     - '미디어 선택': 'media_select.md'
+    - '그룹 선택': 'group_play.md'
     - '위치 / 크기 / 밝기 설정': 'position.md'
     - '시간 설정': 'time.md'
     - '삭제 / 활성화': 'delete_enable.md'
