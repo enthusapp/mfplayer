@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>추가 / 편집 - ENTHUS MFPlayer v2.1.5</title>
+  <title>그룹 선택 - ENTHUS MFPlayer v2.1.5</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,8 +17,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "\ucd94\uac00 / \ud3b8\uc9d1";
-    var mkdocs_page_input_path = "schedule_add.md";
+    var mkdocs_page_name = "\uadf8\ub8f9 \uc120\ud0dd";
+    var mkdocs_page_input_path = "group_play.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -57,20 +57,20 @@
 		
     <span class="caption-text">스케쥴</span>
     <ul class="subnav">
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">추가 / 편집</a>
-    <ul class="subnav">
-            
-    </ul>
+    <a class="" href="../schedule_add/">추가 / 편집</a>
                 </li>
                 <li class="">
                     
     <a class="" href="../media_select/">미디어 선택</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../group_play/">그룹 선택</a>
+    <a class="current" href="./">그룹 선택</a>
+    <ul class="subnav">
+            
+    </ul>
                 </li>
                 <li class="">
                     
@@ -159,7 +159,7 @@
         
       
     
-    <li>추가 / 편집</li>
+    <li>그룹 선택</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -169,12 +169,19 @@
           <div role="main">
             <div class="section">
               
-                <p><strong>추가</strong></p>
-<p>하단 메뉴의 <strong>스케쥴 추가</strong> 버튼을 누르면, 모든 시간에 활성화되어 있는 기본 설정으로 새로운 스케쥴이 추가됩니다.</p>
-<p><img alt="" src="../img/schedule_add_button.jpg" /></p>
-<p><strong>편집</strong></p>
-<p>스케쥴을 클릭하면 스케쥴 편집창이 열립니다. 편집창에서는 <a href="/mfplayer/start_stop_test">테스트</a>, <a href="/mfplayer/media_select">미디어 선택</a>, <a href="/mfplayer/delete_enable">삭제</a>, <a href="/mfplayer/position">위치 설정</a> 및 <a href="/mfplayer/time">시간 설정</a>이 가능합니다.</p>
-<p><img alt="" src="../img/schedule_open.jpg" /></p>
+                <p><strong>Group Play</strong></p>
+<p>MFPlayer 에는 여러개의 미디어 파일을 같은 설정으로 재생할 수 있는 Group Play 기능이 있습니다. 원하는 미디어 파일을 선택하면 차례대로 상단의 선택 리스트에 미디어 파일명이 표시됩니다.</p>
+<p><img alt="" src="../img/media_select.jpg" /></p>
+<p>오른쪽 상단 완료버튼을 눌러 선택을 종료합니다.</p>
+<p><img alt="" src="../img/media_select_complete.jpg" /></p>
+<p>선택을 취소하려면 다시 <code>미디어 선택</code> 버튼을 누르고 상단 오른쪽의 <code>지우기</code> 버튼을 눌러 차례로 삭제합니다.</p>
+<p><img alt="" src="../img/media_select_delete.jpg" /></p>
+<p>스케쥴 제목에 선택된 파일 리스트가 표시되고, 각 미디어의 재생 시간이 표시됩니다.</p>
+<p><img alt="" src="../img/media_select_complete_display.jpg" /></p>
+<p>미디어의 재생 시간을 수정하기 위해 <code>재생 시간 설정</code> 버튼을 클릭합니다.</p>
+<p><img alt="" src="../img/media_time_select.jpg" /></p>
+<p>각 미디어의 재생 시간을 수정 후 완료 버튼을 누릅니다. 재생 시간은 ms 단위로 설정됩니다. 최소 동작 시간은 500 ms 이고, 100 ms 단위로 변경할 수 있습니다.</p>
+<p><img alt="" src="../img/media_time_select_complete.jpg" /></p>
               
             </div>
           </div>
@@ -182,10 +189,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../media_select/" class="btn btn-neutral float-right" title="미디어 선택">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../position/" class="btn btn-neutral float-right" title="위치 / 크기 / 밝기 설정">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="MFPlayer"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../media_select/" class="btn btn-neutral" title="미디어 선택"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -213,10 +220,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../media_select/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../media_select/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../position/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
