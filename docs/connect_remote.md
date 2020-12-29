@@ -22,9 +22,10 @@ MFPlayer 하단에 있는 터미널 아이콘을 클릭합니다.
 
 ![TeamViewerTerminal](img/TeamViewer/Terminal.jpg)
 
-터미널 창이 나타나면 아래 첫번째 명령어를 입력합니다.
+터미널 창이 나타나면 아래 명령어를 차례로 입력합니다.
 
 ```bash
+rm teamviewer-host_armhf.deb
 wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb
 ```
 
